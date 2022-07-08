@@ -113,9 +113,23 @@ small {
 @media only screen and (max-width: 500px) {
   .header img {
       padding: 5px;
-      width: 300px;
+      width: 75%;
   }
-  input select {
+
+  p, label {
+    margin-left: 15px;
+  }
+  .search {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  select {
+    margin: 0px 35px;
     width: 75%;
+  }
+  input[type=submit] {
+    width: 65%;
+    padding: 5px;
   }
 }
