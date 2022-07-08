@@ -136,5 +136,7 @@ small {
   button {
     width: 65%;
     padding: 5px;
+    background-color: grey;
+    color: black;
   }
 }
