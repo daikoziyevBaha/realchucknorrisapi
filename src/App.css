@@ -42,6 +42,11 @@ p {
   font-size: 16px;
 
 }
+.button__submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .btn-submit {
   margin: 5px auto;
@@ -128,7 +133,7 @@ small {
     margin: 0px 35px;
     width: 75%;
   }
-  input[type=submit] {
+  button {
     width: 65%;
     padding: 5px;
   }

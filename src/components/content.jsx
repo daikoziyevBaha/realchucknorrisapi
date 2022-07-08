@@ -62,8 +62,8 @@ export const Content = () => {
                     <div className="search">
                         <input type="text" name="search" id="search" onChange={handleSearch}/>
                     </div>
-                    <div className="btn-submit">
-                        <input type="submit" value="Сгенерировать шутку" className="btn-submit"/>
+                    <div className="button__submit">
+                        <button type="submit"  className="btn-submit">Сгенерировать шутку</button>
                     </div>
                 </form>
             </section>
