@@ -1,10 +1,14 @@
 import React from "react";
 
-export const Footer = () => {
+class Footer extends React.Component {
 
-    return (
-        <div className="footer">
-            <small>Данный веб сайт использует api.chucknorris.io </small>
-        </div>
+    render () {
+        return ( 
+            <div className="footer">
+                <small>Данный веб сайт использует api.chucknorris.io </small>
+            </div>
     )
 }
+}
+
+export default Footer;

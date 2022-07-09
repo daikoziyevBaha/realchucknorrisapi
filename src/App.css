@@ -115,6 +115,11 @@ small {
 }
 
 
+.content_class {
+  margin: 100px auto;
+}
+
+
 @media only screen and (max-width: 500px) {
   .header img {
       padding: 5px;
@@ -141,3 +146,4 @@ small {
     color: black;
   }
 }
+

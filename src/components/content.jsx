@@ -48,6 +48,7 @@ export const Content = () => {
 
     const getJokeByCat = async (event) => {
         try {
+            console.log(event.target.value)
             const urlSearch = `https://api.chucknorris.io/jokes/random?category=${event.target.value}`
             const response = await axios.get(urlSearch)
             setJokeByCat({...response.data})

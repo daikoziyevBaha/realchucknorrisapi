@@ -1,13 +1,17 @@
 import './App.css';
 import {Content} from './components/content';
-import {Footer} from './components/footer';
-import {Header} from './components/header';
+import ContentClass from './components/contentclass';
+import Footer from './components/footer';
+import Header from './components/header';
+
+
 
 function App() {
   return (
       <div className='wrapper'>
         <Header />
-        <Content />
+        <ContentClass />
+        {/* <Content /> */}
         <Footer />
       </div>
   );
